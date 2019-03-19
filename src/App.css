@@ -1,0 +1,29 @@
+#root, .app {
+  position: relative;
+}
+
+.element {
+  position: absolute;
+  top: calc(100vh / 2 - 100px);
+  left: calc(100vw / 2 - 100px);
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.control {
+  padding: 20px;
+}
+
+.control select {
+  width: 100px;
+}
+
+.control .row {
+  display: flex;
+  margin-top: 5px;
+}
+
+.control .label {
+  width: 130px;
+}
